@@ -1,4 +1,6 @@
-﻿Console.WriteLine();
+﻿using demo_if_else;
+
+Console.WriteLine();
 foreach (var s in args)
 {
     Console.Write(s);
@@ -6,22 +8,7 @@ foreach (var s in args)
 }
 Console.WriteLine();
 
-for (int i = 0; i < 20; i++)
-{
-    Console.Write("| -");
-    await Task.Delay(50);
-    Console.Write("\b\b\b");
-    Console.Write("/ \\");
-    await Task.Delay(50);
-    Console.Write("\b\b\b");
-    Console.Write("- |");
-    await Task.Delay(50);
-    Console.Write("\b\b\b");
-    Console.Write("\\ /");
-    await Task.Delay(50);
-    Console.Write("\b\b\b");
-}
-Console.WriteLine();
+await test2.T1();
 
 string[] answers =
 {
