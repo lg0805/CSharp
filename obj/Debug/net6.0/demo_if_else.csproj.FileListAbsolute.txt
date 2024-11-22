@@ -1,0 +1,15 @@
+F:\code_demo\git\CSharp\CSharp\demo_if_else\bin\Debug\net6.0\demo_if_else.exe
+F:\code_demo\git\CSharp\CSharp\demo_if_else\bin\Debug\net6.0\demo_if_else.deps.json
+F:\code_demo\git\CSharp\CSharp\demo_if_else\bin\Debug\net6.0\demo_if_else.runtimeconfig.json
+F:\code_demo\git\CSharp\CSharp\demo_if_else\bin\Debug\net6.0\demo_if_else.dll
+F:\code_demo\git\CSharp\CSharp\demo_if_else\bin\Debug\net6.0\demo_if_else.pdb
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.csproj.AssemblyReference.cache
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.GeneratedMSBuildEditorConfig.editorconfig
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.AssemblyInfoInputs.cache
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.AssemblyInfo.cs
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.csproj.CoreCompileInputs.cache
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.dll
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\refint\demo_if_else.dll
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.pdb
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\demo_if_else.genruntimeconfig.cache
+F:\code_demo\git\CSharp\CSharp\demo_if_else\obj\Debug\net6.0\ref\demo_if_else.dll
