@@ -1,33 +1,53 @@
 ﻿using demo_if_else;
 
-Console.WriteLine();
-foreach (var s in args)
+namespace demo_if_else
 {
-    Console.Write(s);
-    Console.Write(' ');
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Bank mybank = new Bank();
+        }
+    }
+
+    public class Bank
+    {
+        public void CreateAccount()
+        {
+            User user = new User();
+
+            Console.WriteLine("请输入账户姓名：");
+            user.name = Console.ReadLine();
+            user.account = "179708066356";
+            Console.WriteLine("请输入账户密码：");
+            user.password = Console.ReadLine();
+            Console.WriteLine("请输入身份证号：");
+            user.identityNum = Console.ReadLine();
+            Console.WriteLine("请输入账户存款金额：");
+            user.balance = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("账户信息：{0},姓名：{1}, 存款金额:{2}创建成功！",
+            user.account, user.name, user.balance);
+            Console.ReadKey();
+        }
+    }
+
+    public class User
+    {
+        public string name;
+        public string password;
+        public string identityNum;
+        public double balance;
+        public string account;
+
+        public User()
+        {
+            this.name = "Alice";
+            this.password = "123";
+            this.identityNum = "111";
+            this.balance = 0.0;
+            this.account = "123";
+
+        }
+    }
 }
-Console.WriteLine();
-
-await test2.T1();
-
-string[] answers =
-{
-    "It is certain.",       "Reply hazy, try again.",     "Don't count on it.",
-    "It is decidedly so.",  "Ask again later.",           "My reply is no.",
-    "Without a doubt.",     "Better not tell you now.",   "My sources say no.",
-    "Yes – definitely.",    "Cannot predict now.",        "Outlook not so good.",
-    "You may rely on it.",  "Concentrate and ask again.", "Very doubtful.",
-    "As I see it, yes.",
-    "Most likely.",
-    "Outlook good.",
-    "Yes.",
-    "Signs point to yes.",
-};
-
-var index = new Random().Next(answers.Length - 1);
-Console.WriteLine(answers[index]);
-
-Person Alice = new Person();
-Alice.Name = "Alice";
-Alice.Age = 25;
-Alice.SayHello();
