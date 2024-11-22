@@ -26,3 +26,8 @@ string[] answers =
 
 var index = new Random().Next(answers.Length - 1);
 Console.WriteLine(answers[index]);
+
+Person Alice = new Person();
+Alice.Name = "Alice";
+Alice.Age = 25;
+Alice.SayHello();
