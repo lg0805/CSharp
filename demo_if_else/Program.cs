@@ -7,6 +7,7 @@ namespace demo_if_else
         static void Main(string[] args)
         {
             Bank mybank = new Bank();
+            mybank.CreateAccount();
         }
     }
 
@@ -17,18 +18,24 @@ namespace demo_if_else
             User user = new User();
 
             Console.WriteLine("请输入账户姓名：");
+#pragma warning disable CS8601 // 引用类型赋值可能为 null。
             user.name = Console.ReadLine();
+#pragma warning restore CS8601 // 引用类型赋值可能为 null。
             user.account = "179708066356";
             Console.WriteLine("请输入账户密码：");
+#pragma warning disable CS8601 // 引用类型赋值可能为 null。
             user.password = Console.ReadLine();
+#pragma warning restore CS8601 // 引用类型赋值可能为 null。
             Console.WriteLine("请输入身份证号：");
+#pragma warning disable CS8601 // 引用类型赋值可能为 null。
             user.identityNum = Console.ReadLine();
+#pragma warning restore CS8601 // 引用类型赋值可能为 null。
             Console.WriteLine("请输入账户存款金额：");
-            user.balance = double.Parse(Console.ReadLine());
+            user.balance = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("账户信息：{0},姓名：{1}, 存款金额:{2}创建成功！",
             user.account, user.name, user.balance);
-            Console.ReadKey();
+            // Console.ReadKey();
         }
     }
 
@@ -42,11 +49,11 @@ namespace demo_if_else
 
         public User()
         {
-            this.name = "Alice";
-            this.password = "123";
-            this.identityNum = "111";
+            this.name = "";
+            this.password = "";
+            this.identityNum = "";
             this.balance = 0.0;
-            this.account = "123";
+            this.account = "";
 
         }
     }
